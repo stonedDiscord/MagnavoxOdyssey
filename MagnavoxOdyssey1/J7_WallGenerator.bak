@@ -1,0 +1,429 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ferrite
+LIBS:MagnavoxOdyssey1-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 3100 5150 0    60   Input ~ 0
+(1)_VERT_IN
+Text HLabel 3100 3150 0    60   Input ~ 0
+(10)_HORIZ_IN
+Text HLabel 3100 3400 0    60   Input ~ 0
+(6)
+Text HLabel 3100 2500 0    60   Input ~ 0
+(9)
+$Comp
+L DIODE 7_D1
+U 1 1 588DCAB3
+P 3500 3150
+F 0 "7_D1" H 3500 3342 40  0000 C CNN
+F 1 "DIODE" H 3500 3266 40  0000 C CNN
+F 2 "" H 3500 3150 60  0000 C CNN
+F 3 "" H 3500 3150 60  0000 C CNN
+	1    3500 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 7_R1
+U 1 1 588DCB1F
+P 3500 2500
+F 0 "7_R1" V 3315 2500 40  0000 C CNN
+F 1 "10k" V 3391 2500 40  0000 C CNN
+F 2 "" V 3430 2500 30  0000 C CNN
+F 3 "" H 3500 2500 30  0000 C CNN
+	1    3500 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L CP1 7_C1
+U 1 1 588DCB74
+P 4450 2500
+F 0 "7_C1" V 4720 2500 50  0000 C CNN
+F 1 "1500" V 4629 2500 50  0000 C CNN
+F 2 "" H 4450 2500 60  0000 C CNN
+F 3 "" H 4450 2500 60  0000 C CNN
+	1    4450 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R 7_R2
+U 1 1 588DCBFC
+P 4950 2900
+F 0 "7_R2" H 4879 2862 40  0000 R CNN
+F 1 "100k 5%" H 4879 2938 40  0000 R CNN
+F 2 "" V 4880 2900 30  0000 C CNN
+F 3 "" H 4950 2900 30  0000 C CNN
+	1    4950 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L NPN 7_Q1
+U 1 1 588DCC63
+P 5500 2500
+F 0 "7_Q1" H 5691 2546 50  0000 L CNN
+F 1 "142N9" H 5691 2455 50  0000 L CNN
+F 2 "" H 5500 2500 60  0000 C CNN
+F 3 "" H 5500 2500 60  0000 C CNN
+	1    5500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR020
+U 1 1 588DCD18
+P 5600 2900
+F 0 "#PWR020" H 5600 2900 30  0001 C CNN
+F 1 "GND" H 5600 2830 30  0001 C CNN
+F 2 "" H 5600 2900 60  0001 C CNN
+F 3 "" H 5600 2900 60  0001 C CNN
+	1    5600 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 7_R3
+U 1 1 588DCD72
+P 6300 2900
+F 0 "7_R3" H 6229 2862 40  0000 R CNN
+F 1 "10k" H 6229 2938 40  0000 R CNN
+F 2 "" V 6230 2900 30  0000 C CNN
+F 3 "" H 6300 2900 30  0000 C CNN
+	1    6300 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP1 7_C2
+U 1 1 588DCDCD
+P 6800 2500
+F 0 "7_C2" V 7070 2500 50  0000 C CNN
+F 1 "120" V 6979 2500 50  0000 C CNN
+F 2 "" H 6800 2500 60  0000 C CNN
+F 3 "" H 6800 2500 60  0000 C CNN
+	1    6800 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L NPN 7_Q2
+U 1 1 588DCE86
+P 7850 2500
+F 0 "7_Q2" H 8041 2546 50  0000 L CNN
+F 1 "142N9" H 8041 2455 50  0000 L CNN
+F 2 "" H 7850 2500 60  0000 C CNN
+F 3 "" H 7850 2500 60  0000 C CNN
+	1    7850 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR021
+U 1 1 588DCE8C
+P 7950 2900
+F 0 "#PWR021" H 7950 2900 30  0001 C CNN
+F 1 "GND" H 7950 2830 30  0001 C CNN
+F 2 "" H 7950 2900 60  0001 C CNN
+F 3 "" H 7950 2900 60  0001 C CNN
+	1    7950 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 7_R6
+U 1 1 588DD03A
+P 4950 3950
+F 0 "7_R6" H 4879 3912 40  0000 R CNN
+F 1 "270k 5%" H 4879 3988 40  0000 R CNN
+F 2 "" V 4880 3950 30  0000 C CNN
+F 3 "" H 4950 3950 30  0000 C CNN
+	1    4950 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L NPN 7_Q3
+U 1 1 588DD5E2
+P 5500 4400
+F 0 "7_Q3" H 5691 4446 50  0000 L CNN
+F 1 "142N10" H 5691 4355 50  0000 L CNN
+F 2 "" H 5500 4400 60  0000 C CNN
+F 3 "" H 5500 4400 60  0000 C CNN
+	1    5500 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR022
+U 1 1 588DD5E8
+P 5600 4800
+F 0 "#PWR022" H 5600 4800 30  0001 C CNN
+F 1 "GND" H 5600 4730 30  0001 C CNN
+F 2 "" H 5600 4800 60  0001 C CNN
+F 3 "" H 5600 4800 60  0001 C CNN
+	1    5600 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2500 3250 2500
+Wire Wire Line
+	3750 2500 4250 2500
+Wire Wire Line
+	4000 2500 4000 3150
+Wire Wire Line
+	4000 3150 3700 3150
+Wire Wire Line
+	3300 3150 3100 3150
+Connection ~ 4000 2500
+Wire Wire Line
+	4650 2500 5300 2500
+Wire Wire Line
+	4950 2500 4950 2650
+Connection ~ 4950 2500
+Wire Wire Line
+	5600 2700 5600 2900
+Wire Wire Line
+	5600 2300 5600 2150
+Wire Wire Line
+	5600 2150 6300 2150
+Wire Wire Line
+	6300 2150 6300 2650
+Wire Wire Line
+	7000 2500 7650 2500
+Wire Wire Line
+	7950 2700 7950 2900
+Wire Wire Line
+	6600 2500 6300 2500
+Connection ~ 6300 2500
+Wire Wire Line
+	4950 3150 4950 3700
+Wire Wire Line
+	4950 3300 7050 3300
+Wire Wire Line
+	6300 3150 6300 3450
+Wire Wire Line
+	4950 3400 3100 3400
+Connection ~ 4950 3300
+Connection ~ 4950 3400
+Wire Wire Line
+	4950 4400 5300 4400
+Wire Wire Line
+	5600 4600 5600 4800
+Wire Wire Line
+	5600 4200 5600 4050
+Wire Wire Line
+	4950 4200 4950 4550
+$Comp
+L R 7_R7
+U 1 1 588DD6AF
+P 6300 3700
+F 0 "7_R7" H 6229 3662 40  0000 R CNN
+F 1 "10k" H 6229 3738 40  0000 R CNN
+F 2 "" V 6230 3700 30  0000 C CNN
+F 3 "" H 6300 3700 30  0000 C CNN
+	1    6300 3700
+	-1   0    0    1   
+$EndComp
+Connection ~ 6300 3300
+Wire Wire Line
+	6300 3950 6300 4200
+Wire Wire Line
+	5600 4050 6300 4050
+$Comp
+L CP1 7_C4
+U 1 1 588DD883
+P 6650 4200
+F 0 "7_C4" V 6920 4200 50  0000 C CNN
+F 1 "0.1" V 6829 4200 50  0000 C CNN
+F 2 "" H 6650 4200 60  0000 C CNN
+F 3 "" H 6650 4200 60  0000 C CNN
+	1    6650 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP1 7_C5
+U 1 1 588DD8E3
+P 7350 4700
+F 0 "7_C5" H 7483 4746 50  0000 L CNN
+F 1 "0.01" H 7483 4655 50  0000 L CNN
+F 2 "" H 7350 4700 60  0000 C CNN
+F 3 "" H 7350 4700 60  0000 C CNN
+	1    7350 4700
+	1    0    0    -1  
+$EndComp
+Text HLabel 7050 5550 3    60   Output ~ 0
+(4)
+Wire Wire Line
+	6850 4200 7650 4200
+Wire Wire Line
+	7350 4200 7350 4500
+Wire Wire Line
+	7050 5550 7050 4200
+Connection ~ 7050 4200
+Wire Wire Line
+	6300 4200 6450 4200
+Connection ~ 6300 4050
+$Comp
+L CP1 7_C3
+U 1 1 588DDB1C
+P 4950 4750
+F 0 "7_C3" H 5083 4796 50  0000 L CNN
+F 1 "45" H 5083 4705 50  0000 L CNN
+F 2 "" H 4950 4750 60  0000 C CNN
+F 3 "" H 4950 4750 60  0000 C CNN
+	1    4950 4750
+	1    0    0    -1  
+$EndComp
+Connection ~ 4950 4400
+Wire Wire Line
+	7350 4900 7350 5150
+Wire Wire Line
+	3750 5150 7650 5150
+Wire Wire Line
+	4950 5150 4950 4950
+Text HLabel 8900 5150 2    60   Output ~ 0
+(2)
+$Comp
+L R 7_R8
+U 1 1 588DDD4B
+P 7900 5150
+F 0 "7_R8" V 8085 5150 40  0000 C CNN
+F 1 "10k" V 8009 5150 40  0000 C CNN
+F 2 "" V 7830 5150 30  0000 C CNN
+F 3 "" H 7900 5150 30  0000 C CNN
+	1    7900 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 5150 8150 5150
+Connection ~ 7350 5150
+$Comp
+L NPN 7_Q4
+U 1 1 588DDF3A
+P 7850 4200
+F 0 "7_Q4" H 8041 4246 50  0000 L CNN
+F 1 "142N9" H 8041 4155 50  0000 L CNN
+F 2 "" H 7850 4200 60  0000 C CNN
+F 3 "" H 7850 4200 60  0000 C CNN
+	1    7850 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR023
+U 1 1 588DDF40
+P 7950 4600
+F 0 "#PWR023" H 7950 4600 30  0001 C CNN
+F 1 "GND" H 7950 4530 30  0001 C CNN
+F 2 "" H 7950 4600 60  0001 C CNN
+F 3 "" H 7950 4600 60  0001 C CNN
+	1    7950 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 4400 7950 4600
+Wire Wire Line
+	7950 4000 7950 3850
+Wire Wire Line
+	7950 3850 8900 3850
+Connection ~ 7350 4200
+Text HLabel 8900 3850 2    60   Output ~ 0
+(5)
+Text HLabel 8900 4500 2    60   Output ~ 0
+(3)_GND
+Wire Wire Line
+	8900 4500 7950 4500
+Connection ~ 7950 4500
+Wire Wire Line
+	7950 2300 7950 2150
+Wire Wire Line
+	7950 2150 8500 2150
+Wire Wire Line
+	8500 2150 8500 3850
+Connection ~ 8500 3850
+$Comp
+L R 7_R4
+U 1 1 588DE2ED
+P 7300 3300
+F 0 "7_R4" V 7485 3300 40  0000 C CNN
+F 1 "2.2k" V 7409 3300 40  0000 C CNN
+F 2 "" V 7230 3300 30  0000 C CNN
+F 3 "" H 7300 3300 30  0000 C CNN
+	1    7300 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R 7_R5
+U 1 1 588DE379
+P 8100 3300
+F 0 "7_R5" V 8285 3300 40  0000 C CNN
+F 1 "10k" V 8209 3300 40  0000 C CNN
+F 2 "" V 8030 3300 30  0000 C CNN
+F 3 "" H 8100 3300 30  0000 C CNN
+	1    8100 3300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8350 3300 8500 3300
+Connection ~ 8500 3300
+Wire Wire Line
+	7550 3300 7850 3300
+Text HLabel 8900 3600 2    60   Output ~ 0
+(8)
+Text HLabel 8950 2000 2    60   Output ~ 0
+(7)
+Wire Wire Line
+	8900 3600 7700 3600
+Wire Wire Line
+	7700 3600 7700 3300
+Connection ~ 7700 3300
+Wire Wire Line
+	8950 2000 7250 2000
+Wire Wire Line
+	7250 2000 7250 2500
+Connection ~ 7250 2500
+$Comp
+L DIODE 7_D2
+U 1 1 588DE8DA
+P 3550 5150
+F 0 "7_D2" H 3550 5342 40  0000 C CNN
+F 1 "DIODE" H 3550 5266 40  0000 C CNN
+F 2 "" H 3550 5150 60  0000 C CNN
+F 3 "" H 3550 5150 60  0000 C CNN
+	1    3550 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 5150 3100 5150
+Connection ~ 4950 5150
+$EndSCHEMATC

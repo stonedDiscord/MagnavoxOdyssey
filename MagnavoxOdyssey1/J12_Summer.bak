@@ -1,0 +1,291 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ferrite
+LIBS:MagnavoxOdyssey1-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 6350 4250 2    60   Output ~ 0
+(10)_OUT
+Text HLabel 6350 3100 2    60   Input ~ 0
+(7)_HORIZONTAL_SYNC_IN
+Text HLabel 6350 2050 2    60   Input ~ 0
+(8)_VERTICAL_SYNC_IN
+Text HLabel 2800 2050 0    60   Input ~ 0
+(2)_PLAYER1_INPUT
+Text HLabel 2800 2350 0    60   Input ~ 0
+(1)
+Text HLabel 2800 3400 0    60   Input ~ 0
+(3)
+Text HLabel 2800 3100 0    60   Input ~ 0
+(4)_PLAYER2_INPUT
+Text HLabel 2800 4250 0    60   Input ~ 0
+(5)_BALL_INPUT
+Text HLabel 2800 5000 0    60   Input ~ 0
+(6)_WALL_INPUT
+$Comp
+L R 12_R4
+U 1 1 588D81FC
+P 3850 2050
+F 0 "12_R4" V 3665 2050 40  0000 C CNN
+F 1 "R" V 3741 2050 40  0000 C CNN
+F 2 "" V 3780 2050 30  0000 C CNN
+F 3 "" H 3850 2050 30  0000 C CNN
+	1    3850 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L DIODE 12_D1
+U 1 1 588D825B
+P 4500 2050
+F 0 "12_D1" H 4500 2242 40  0000 C CNN
+F 1 "DIODE" H 4500 2166 40  0000 C CNN
+F 2 "" H 4500 2050 60  0000 C CNN
+F 3 "" H 4500 2050 60  0000 C CNN
+	1    4500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE 12_D8
+U 1 1 588D829D
+P 5100 2050
+F 0 "12_D8" H 5100 2242 40  0000 C CNN
+F 1 "DIODE" H 5100 2166 40  0000 C CNN
+F 2 "" H 5100 2050 60  0000 C CNN
+F 3 "" H 5100 2050 60  0000 C CNN
+	1    5100 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE 12_D2
+U 1 1 588D82E2
+P 3150 2350
+F 0 "12_D2" H 3150 2542 40  0000 C CNN
+F 1 "DIODE" H 3150 2466 40  0000 C CNN
+F 2 "" H 3150 2350 60  0000 C CNN
+F 3 "" H 3150 2350 60  0000 C CNN
+	1    3150 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 2050 3600 2050
+Wire Wire Line
+	3350 2350 3500 2350
+Wire Wire Line
+	3500 2350 3500 2050
+Connection ~ 3500 2050
+Wire Wire Line
+	2950 2350 2800 2350
+Wire Wire Line
+	4100 2050 4300 2050
+Wire Wire Line
+	4700 2050 4900 2050
+Wire Wire Line
+	6350 2050 5300 2050
+$Comp
+L R 12_R5
+U 1 1 588D84A4
+P 3850 3100
+F 0 "12_R5" V 3665 3100 40  0000 C CNN
+F 1 "R" V 3741 3100 40  0000 C CNN
+F 2 "" V 3780 3100 30  0000 C CNN
+F 3 "" H 3850 3100 30  0000 C CNN
+	1    3850 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L DIODE 12_D3
+U 1 1 588D84AA
+P 4500 3100
+F 0 "12_D3" H 4500 3292 40  0000 C CNN
+F 1 "DIODE" H 4500 3216 40  0000 C CNN
+F 2 "" H 4500 3100 60  0000 C CNN
+F 3 "" H 4500 3100 60  0000 C CNN
+	1    4500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE 12_D7
+U 1 1 588D84B0
+P 5100 3100
+F 0 "12_D7" H 5100 3292 40  0000 C CNN
+F 1 "DIODE" H 5100 3216 40  0000 C CNN
+F 2 "" H 5100 3100 60  0000 C CNN
+F 3 "" H 5100 3100 60  0000 C CNN
+	1    5100 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE 12_D4
+U 1 1 588D84B6
+P 3150 3400
+F 0 "12_D4" H 3150 3592 40  0000 C CNN
+F 1 "DIODE" H 3150 3516 40  0000 C CNN
+F 2 "" H 3150 3400 60  0000 C CNN
+F 3 "" H 3150 3400 60  0000 C CNN
+	1    3150 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 3100 3600 3100
+Wire Wire Line
+	3350 3400 3500 3400
+Wire Wire Line
+	3500 3400 3500 3100
+Connection ~ 3500 3100
+Wire Wire Line
+	2950 3400 2800 3400
+Wire Wire Line
+	4100 3100 4300 3100
+Wire Wire Line
+	4700 3100 4900 3100
+Wire Wire Line
+	6350 3100 5300 3100
+$Comp
+L R 12_R6
+U 1 1 588D85D0
+P 3850 4250
+F 0 "12_R6" V 3665 4250 40  0000 C CNN
+F 1 "R" V 3741 4250 40  0000 C CNN
+F 2 "" V 3780 4250 30  0000 C CNN
+F 3 "" H 3850 4250 30  0000 C CNN
+	1    3850 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L DIODE 12_D5
+U 1 1 588D85D6
+P 4500 4250
+F 0 "12_D5" H 4500 4442 40  0000 C CNN
+F 1 "DIODE" H 4500 4366 40  0000 C CNN
+F 2 "" H 4500 4250 60  0000 C CNN
+F 3 "" H 4500 4250 60  0000 C CNN
+	1    4500 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4250 3600 4250
+Wire Wire Line
+	4100 4250 4300 4250
+Wire Wire Line
+	4700 4250 4900 4250
+$Comp
+L R 12_R1
+U 1 1 588D8613
+P 5150 4250
+F 0 "12_R1" V 4965 4250 40  0000 C CNN
+F 1 "820" V 5041 4250 40  0000 C CNN
+F 2 "" V 5080 4250 30  0000 C CNN
+F 3 "" H 5150 4250 30  0000 C CNN
+	1    5150 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 4250 6350 4250
+$Comp
+L R 12_R7
+U 1 1 588D8763
+P 3850 5000
+F 0 "12_R7" V 3665 5000 40  0000 C CNN
+F 1 "R" V 3741 5000 40  0000 C CNN
+F 2 "" V 3780 5000 30  0000 C CNN
+F 3 "" H 3850 5000 30  0000 C CNN
+	1    3850 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L DIODE 12_D6
+U 1 1 588D8769
+P 4500 5000
+F 0 "12_D6" H 4500 5192 40  0000 C CNN
+F 1 "DIODE" H 4500 5116 40  0000 C CNN
+F 2 "" H 4500 5000 60  0000 C CNN
+F 3 "" H 4500 5000 60  0000 C CNN
+	1    4500 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 5000 3600 5000
+Wire Wire Line
+	4100 5000 4300 5000
+Wire Wire Line
+	4800 5000 4700 5000
+Wire Wire Line
+	4800 2050 4800 5000
+Connection ~ 4800 4250
+Connection ~ 4800 3100
+Connection ~ 4800 2050
+$Comp
+L R 12_R2
+U 1 1 588D88DE
+P 5550 2550
+F 0 "12_R2" H 5479 2512 40  0000 R CNN
+F 1 "27k" H 5479 2588 40  0000 R CNN
+F 2 "" V 5480 2550 30  0000 C CNN
+F 3 "" H 5550 2550 30  0000 C CNN
+	1    5550 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L R 12_R3
+U 1 1 588D8D06
+P 5950 3750
+F 0 "12_R3" H 5879 3712 40  0000 R CNN
+F 1 "18k" H 5879 3788 40  0000 R CNN
+F 2 "" V 5880 3750 30  0000 C CNN
+F 3 "" H 5950 3750 30  0000 C CNN
+	1    5950 3750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5550 2300 5550 2050
+Connection ~ 5550 2050
+Wire Wire Line
+	5550 2800 5550 4250
+Connection ~ 5550 4250
+Wire Wire Line
+	5950 4000 5950 4250
+Connection ~ 5950 4250
+Wire Wire Line
+	5950 3500 5950 3100
+Connection ~ 5950 3100
+$EndSCHEMATC
