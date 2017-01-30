@@ -1,4 +1,4 @@
-update=Sáb 28 Jan 2017 18:56:13 BRST
+update=Seg 30 Jan 2017 11:52:28 BRST
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/home/felipe/devel/gitlab_fsanches/MagnavoxOdyssey1_KICAD/libs/ferrite
+LibName31=/home/felipe/devel/gitlab_fsanches/MagnavoxOdyssey1_KICAD/libs/conn_22x2
