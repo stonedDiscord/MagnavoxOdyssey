@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 10
+Sheet 7 12
 Title ""
 Date ""
 Rev ""
@@ -117,10 +117,6 @@ F 3 "" H 6000 4350 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	6450 4350 6450 5250
-Wire Wire Line
-	6250 4800 8050 4800
-Wire Wire Line
-	3400 4800 4350 4800
 Wire Wire Line
 	4200 4050 4200 5250
 Wire Wire Line
@@ -208,10 +204,6 @@ $EndComp
 Wire Wire Line
 	6450 2350 6450 3250
 Wire Wire Line
-	6250 2800 8000 2800
-Wire Wire Line
-	3400 2800 4350 2800
-Wire Wire Line
 	4200 2350 4200 3550
 Wire Wire Line
 	4500 2150 5000 2150
@@ -277,10 +269,6 @@ Text HLabel 8050 3800 2    61   Output ~ 0
 Wire Wire Line
 	8050 3800 7450 3800
 Connection ~ 7450 3800
-Text HLabel 8000 2800 2    61   Output ~ 0
-(8)_NC
-Text HLabel 8050 4800 2    61   Output ~ 0
-(2)_NC
 $Comp
 L PNP 16_Q2
 U 1 1 588FDA55
@@ -312,17 +300,13 @@ Wire Wire Line
 Text HLabel 3400 1700 0    61   Input ~ 0
 (10)_5.6V
 Connection ~ 4200 1700
-Text HLabel 3400 4800 0    61   Input ~ 0
-(1)_NC
-Text HLabel 3400 2800 0    61   Input ~ 0
-(7)_NC
 Wire Wire Line
 	4400 4350 4200 4350
 $Comp
-L GND #PWR041
+L GND #PWR067
 U 1 1 588FE5F6
 P 4200 5900
-F 0 "#PWR041" H 4200 5900 30  0001 C CNN
+F 0 "#PWR067" H 4200 5900 30  0001 C CNN
 F 1 "GND" H 4200 5830 30  0001 C CNN
 F 2 "" H 4200 5900 60  0001 C CNN
 F 3 "" H 4200 5900 60  0001 C CNN
@@ -337,10 +321,10 @@ Wire Wire Line
 	3400 5750 4200 5750
 Connection ~ 4200 5750
 $Comp
-L GND #PWR042
+L GND #PWR068
 U 1 1 588FE81C
 P 6450 5900
-F 0 "#PWR042" H 6450 5900 30  0001 C CNN
+F 0 "#PWR068" H 6450 5900 30  0001 C CNN
 F 1 "GND" H 6450 5830 30  0001 C CNN
 F 2 "" H 6450 5900 60  0001 C CNN
 F 3 "" H 6450 5900 60  0001 C CNN
@@ -371,4 +355,12 @@ Text Notes 4600 5550 0    61   ~ 0
 0 to .6V
 Text Notes 5650 5550 0    61   ~ 0
 0 to .6V
+Wire Wire Line
+	6450 4800 6250 4800
+Wire Wire Line
+	6450 2800 6250 2800
+Wire Wire Line
+	4200 4800 4350 4800
+Wire Wire Line
+	4200 2800 4350 2800
 $EndSCHEMATC
