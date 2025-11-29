@@ -2866,7 +2866,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1500 5%"
+		(property "Value" "1500"
 			(at 159.2834 91.1352 0)
 			(effects
 				(font
@@ -3206,7 +3206,7 @@
 				)
 			)
 		)
-		(property "Value" "15k 5%"
+		(property "Value" "15k"
 			(at 247.65 72.1614 90)
 			(effects
 				(font
@@ -3343,7 +3343,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8k 5%"
+		(property "Value" "6.8k"
 			(at 46.2534 119.0752 0)
 			(effects
 				(font

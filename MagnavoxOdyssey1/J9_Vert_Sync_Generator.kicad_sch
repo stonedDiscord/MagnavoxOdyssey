@@ -1716,7 +1716,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "180k 5%"
+		(property "Value" "180k"
 			(at 124.9934 121.6152 0)
 			(effects
 				(font
@@ -1785,7 +1785,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "300k 5%"
+		(property "Value" "300k"
 			(at 174.5234 120.3452 0)
 			(effects
 				(font
