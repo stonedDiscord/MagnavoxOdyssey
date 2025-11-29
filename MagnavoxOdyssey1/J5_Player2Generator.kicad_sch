@@ -1,12 +1,14 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "d01a5a1e-642b-4341-99b2-6b0b9cce8b70")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -162,11 +164,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:D"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -264,10 +271,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -276,10 +283,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -325,187 +332,12 @@
 					)
 				)
 			)
-		)
-		(symbol "Device:Q_NPN_EBC"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NPN_EBC"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "NPN transistor, emitter/base/collector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NPN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_NPN_EBC_0_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_NPN_EBC_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -624,12 +456,210 @@
 					)
 				)
 			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:Q_NPN_EBC"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NPN_EBC"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "NPN transistor, emitter/base/collector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BJT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NPN_EBC_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NPN_EBC_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -720,6 +750,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -1583,7 +1614,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0390a142-9951-4692-9a20-5d9f6a35398f")
-		(property "Reference" "7_C4"
+		(property "Reference" "5_C4"
 			(at 168.91 99.822 90)
 			(effects
 				(font
@@ -1654,7 +1685,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NPN_EBC")
+		(lib_id "Transistor_BJT:Q_NPN_EBC")
 		(at 139.7 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1662,7 +1693,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f848fa9-e7a5-437d-9627-d5206c83b8af")
-		(property "Reference" "7_Q1"
+		(property "Reference" "5_Q1"
 			(at 144.5514 62.3316 0)
 			(effects
 				(font
@@ -1746,7 +1777,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20602d2a-9cba-4ff6-9fd3-3ac12ccad1d2")
-		(property "Reference" "7_R2"
+		(property "Reference" "5_R2"
 			(at 127.5334 72.6948 0)
 			(effects
 				(font
@@ -1827,7 +1858,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24793d5f-070c-4ccd-89d4-ef100791e74d")
-		(property "Reference" "7_R5"
+		(property "Reference" "5_R5"
 			(at 205.74 79.121 90)
 			(effects
 				(font
@@ -1906,7 +1937,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a3fa845-ccfe-4e37-a42e-6ab6f82ab6cd")
-		(property "Reference" "7_R3"
+		(property "Reference" "5_R3"
 			(at 161.8234 72.6948 0)
 			(effects
 				(font
@@ -2045,7 +2076,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NPN_EBC")
+		(lib_id "Transistor_BJT:Q_NPN_EBC")
 		(at 199.39 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2053,7 +2084,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "630fbcbe-0694-4e56-9806-ee99dca07ce1")
-		(property "Reference" "7_Q4"
+		(property "Reference" "5_Q4"
 			(at 204.2414 105.5116 0)
 			(effects
 				(font
@@ -2129,7 +2160,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NPN_EBC")
+		(lib_id "Transistor_BJT:Q_NPN_EBC")
 		(at 139.7 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2137,7 +2168,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "822bc877-03d1-4205-aed3-903b2a77d321")
-		(property "Reference" "7_Q3"
+		(property "Reference" "5_Q3"
 			(at 144.5514 110.5916 0)
 			(effects
 				(font
@@ -2221,7 +2252,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8417b031-4fa2-4eba-bd43-fb0b58cf7c57")
-		(property "Reference" "7_R6"
+		(property "Reference" "5_R6"
 			(at 127.5334 99.3648 0)
 			(effects
 				(font
@@ -2302,7 +2333,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b15b2f6-46b9-4c0d-8b8a-cf4dac8ddf37")
-		(property "Reference" "7_R8"
+		(property "Reference" "5_R8"
 			(at 200.66 126.111 90)
 			(effects
 				(font
@@ -2447,7 +2478,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8decfee8-0a67-493c-bfb0-b78b64c9fb5e")
-		(property "Reference" "7_C2"
+		(property "Reference" "5_C2"
 			(at 172.72 56.642 90)
 			(effects
 				(font
@@ -2526,7 +2557,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8feb5825-6049-4389-b6a2-b386bea71507")
-		(property "Reference" "7_C3"
+		(property "Reference" "5_C3"
 			(at 129.1082 119.4816 0)
 			(effects
 				(font
@@ -2673,7 +2704,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d5e77d0-7db7-4a95-8785-9526535c88ad")
-		(property "Reference" "7_C5"
+		(property "Reference" "5_C5"
 			(at 190.0682 118.2116 0)
 			(effects
 				(font
@@ -2754,7 +2785,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9443548-4f39-4f58-952e-7cdd7dc692a4")
-		(property "Reference" "7_R4"
+		(property "Reference" "5_R4"
 			(at 185.42 79.121 90)
 			(effects
 				(font
@@ -2833,7 +2864,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af199a2c-c79b-4969-8c5f-a0aed6635079")
-		(property "Reference" "7_C1"
+		(property "Reference" "5_C1"
 			(at 113.03 56.642 90)
 			(effects
 				(font
@@ -2912,7 +2943,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc968726-3199-4177-b6c5-6952ba702837")
-		(property "Reference" "7_R7"
+		(property "Reference" "5_R7"
 			(at 161.8234 93.0148 0)
 			(effects
 				(font
@@ -3051,7 +3082,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NPN_EBC")
+		(lib_id "Transistor_BJT:Q_NPN_EBC")
 		(at 199.39 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3059,7 +3090,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7a0c7b7-db57-4b0c-82c5-7c1c53ceed67")
-		(property "Reference" "7_Q2"
+		(property "Reference" "5_Q2"
 			(at 204.2414 62.3316 0)
 			(effects
 				(font
@@ -3143,7 +3174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d8a9dd4e-e2f9-41ab-ba53-53cc81c4aeb7")
-		(property "Reference" "7_R1"
+		(property "Reference" "5_R1"
 			(at 88.9 58.801 90)
 			(effects
 				(font
@@ -3222,7 +3253,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da387604-8b02-4d72-834a-d428010b3a23")
-		(property "Reference" "7_D2"
+		(property "Reference" "5_D2"
 			(at 90.17 135.6868 0)
 			(effects
 				(font
@@ -3319,7 +3350,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e462d067-8a42-4a7d-aa33-56708dbf43e7")
-		(property "Reference" "7_D1"
+		(property "Reference" "5_D1"
 			(at 88.9 84.8868 0)
 			(effects
 				(font
