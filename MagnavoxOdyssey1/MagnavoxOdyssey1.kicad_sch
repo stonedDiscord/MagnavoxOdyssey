@@ -14659,7 +14659,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "130k 5%"
+		(property "Value" "130k"
 			(at 652.0434 434.0352 0)
 			(effects
 				(font
@@ -15511,7 +15511,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0"
 			(at 296.4434 748.9952 0)
 			(effects
 				(font
@@ -16423,7 +16423,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "33k 5%"
+		(property "Value" "33k"
 			(at 248.3866 406.0952 0)
 			(effects
 				(font
@@ -19414,6 +19414,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" "NPN"
+			(at 474.98 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VBIC"
+			(at 474.98 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 474.98 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "da3660f1-adb8-4629-8bf2-e608180fc3dd")
 		)
@@ -20652,6 +20679,33 @@
 			)
 		)
 		(property "Description" "NPN transistor, emitter/base/collector"
+			(at 629.92 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 629.92 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VBIC"
+			(at 629.92 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
 			(at 629.92 238.76 0)
 			(effects
 				(font
