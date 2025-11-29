@@ -1734,7 +1734,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000588f2ec3")
-		(property "Reference" "10_C?"
+		(property "Reference" "10_C1"
 			(at 90.3986 84.1248 0)
 			(effects
 				(font
@@ -1788,7 +1788,7 @@
 		(instances
 			(project "MagnavoxOdyssey1"
 				(path "/adb6e295-eae5-402e-a614-02a705c3e27c/00000000-0000-0000-0000-0000588f18cd"
-					(reference "10_C?")
+					(reference "10_C1")
 					(unit 1)
 				)
 			)
@@ -1803,7 +1803,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000588f2f26")
-		(property "Reference" "10_C?"
+		(property "Reference" "10_C2"
 			(at 111.9886 84.1248 0)
 			(effects
 				(font
@@ -1857,7 +1857,7 @@
 		(instances
 			(project "MagnavoxOdyssey1"
 				(path "/adb6e295-eae5-402e-a614-02a705c3e27c/00000000-0000-0000-0000-0000588f18cd"
-					(reference "10_C?")
+					(reference "10_C2")
 					(unit 1)
 				)
 			)
@@ -1872,7 +1872,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000588f2f68")
-		(property "Reference" "10_L?"
+		(property "Reference" "10_L1"
 			(at 97.79 71.2978 90)
 			(effects
 				(font
@@ -1924,7 +1924,7 @@
 		(instances
 			(project "MagnavoxOdyssey1"
 				(path "/adb6e295-eae5-402e-a614-02a705c3e27c/00000000-0000-0000-0000-0000588f18cd"
-					(reference "10_L?")
+					(reference "10_L1")
 					(unit 1)
 				)
 			)
@@ -2071,7 +2071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3378b355-bf1e-49a3-a755-6c5c0c15e377")
-		(property "Reference" "10_R?"
+		(property "Reference" "10_R1"
 			(at 124.9934 85.3948 0)
 			(effects
 				(font
@@ -2125,7 +2125,7 @@
 		(instances
 			(project "MagnavoxOdyssey1"
 				(path "/adb6e295-eae5-402e-a614-02a705c3e27c/00000000-0000-0000-0000-0000588f18cd"
-					(reference "10_R?")
+					(reference "10_R1")
 					(unit 1)
 				)
 			)
@@ -2140,7 +2140,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36fdff3e-faee-4103-a082-59f998e331de")
-		(property "Reference" "10_R?"
+		(property "Reference" "10_R4"
 			(at 174.5234 118.4148 0)
 			(effects
 				(font
@@ -2194,7 +2194,7 @@
 		(instances
 			(project "MagnavoxOdyssey1"
 				(path "/adb6e295-eae5-402e-a614-02a705c3e27c/00000000-0000-0000-0000-0000588f18cd"
-					(reference "10_R?")
+					(reference "10_R4")
 					(unit 1)
 				)
 			)
@@ -2209,7 +2209,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50bd49a7-c074-4262-8b1b-7ce7506ff047")
-		(property "Reference" "10_R?"
+		(property "Reference" "10_R5"
 			(at 191.0334 118.4148 0)
 			(effects
 				(font
@@ -2263,7 +2263,7 @@
 		(instances
 			(project "MagnavoxOdyssey1"
 				(path "/adb6e295-eae5-402e-a614-02a705c3e27c/00000000-0000-0000-0000-0000588f18cd"
-					(reference "10_R?")
+					(reference "10_R5")
 					(unit 1)
 				)
 			)
@@ -2279,7 +2279,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67e22f0b-1a59-4a79-a747-4033d2366637")
-		(property "Reference" "10_Q?"
+		(property "Reference" "10_Q3"
 			(at 103.124 108.0516 0)
 			(effects
 				(font
@@ -2336,7 +2336,7 @@
 		(instances
 			(project "MagnavoxOdyssey1"
 				(path "/adb6e295-eae5-402e-a614-02a705c3e27c/00000000-0000-0000-0000-0000588f18cd"
-					(reference "10_Q?")
+					(reference "10_Q3")
 					(unit 1)
 				)
 			)
@@ -2351,7 +2351,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6bcfe875-5bf0-4b72-958b-8b79c6313e71")
-		(property "Reference" "10_R?"
+		(property "Reference" "10_R7"
 			(at 124.9934 119.6848 0)
 			(effects
 				(font
@@ -2405,7 +2405,7 @@
 		(instances
 			(project "MagnavoxOdyssey1"
 				(path "/adb6e295-eae5-402e-a614-02a705c3e27c/00000000-0000-0000-0000-0000588f18cd"
-					(reference "10_R?")
+					(reference "10_R7")
 					(unit 1)
 				)
 			)
@@ -2487,7 +2487,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a1b02ba-64ef-4e8a-9820-dc0771009901")
-		(property "Reference" "10_Q?"
+		(property "Reference" "10_Q1"
 			(at 191.5414 95.1738 0)
 			(effects
 				(font
@@ -2544,7 +2544,7 @@
 		(instances
 			(project "MagnavoxOdyssey1"
 				(path "/adb6e295-eae5-402e-a614-02a705c3e27c/00000000-0000-0000-0000-0000588f18cd"
-					(reference "10_Q?")
+					(reference "10_Q1")
 					(unit 1)
 				)
 			)
@@ -2625,7 +2625,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e164ec2-c41e-4002-96db-144f94f320ae")
-		(property "Reference" "10_Q?"
+		(property "Reference" "10_Q2"
 			(at 205.5114 102.9716 0)
 			(effects
 				(font
@@ -2682,7 +2682,7 @@
 		(instances
 			(project "MagnavoxOdyssey1"
 				(path "/adb6e295-eae5-402e-a614-02a705c3e27c/00000000-0000-0000-0000-0000588f18cd"
-					(reference "10_Q?")
+					(reference "10_Q2")
 					(unit 1)
 				)
 			)
@@ -2697,7 +2697,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac1d1a2d-97c2-4392-8d62-fe90b964bb1d")
-		(property "Reference" "10_R?"
+		(property "Reference" "10_R6"
 			(at 205.0034 118.4148 0)
 			(effects
 				(font
@@ -2751,7 +2751,7 @@
 		(instances
 			(project "MagnavoxOdyssey1"
 				(path "/adb6e295-eae5-402e-a614-02a705c3e27c/00000000-0000-0000-0000-0000588f18cd"
-					(reference "10_R?")
+					(reference "10_R6")
 					(unit 1)
 				)
 			)
@@ -2766,7 +2766,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b136b72b-ace1-41bd-8377-d2148bd1a67a")
-		(property "Reference" "10_R?"
+		(property "Reference" "10_R3"
 			(at 157.48 104.521 90)
 			(effects
 				(font
@@ -2818,7 +2818,7 @@
 		(instances
 			(project "MagnavoxOdyssey1"
 				(path "/adb6e295-eae5-402e-a614-02a705c3e27c/00000000-0000-0000-0000-0000588f18cd"
-					(reference "10_R?")
+					(reference "10_R3")
 					(unit 1)
 				)
 			)
@@ -2833,7 +2833,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4448e48-f160-44f2-bdb5-4c6114ccb7ef")
-		(property "Reference" "10_C?"
+		(property "Reference" "10_C4"
 			(at 138.43 102.362 90)
 			(effects
 				(font
@@ -2885,7 +2885,7 @@
 		(instances
 			(project "MagnavoxOdyssey1"
 				(path "/adb6e295-eae5-402e-a614-02a705c3e27c/00000000-0000-0000-0000-0000588f18cd"
-					(reference "10_C?")
+					(reference "10_C4")
 					(unit 1)
 				)
 			)
@@ -2900,7 +2900,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9f9db35-5a38-48d3-b5ce-c0d4a5192216")
-		(property "Reference" "10_C?"
+		(property "Reference" "10_C3"
 			(at 157.48 89.662 90)
 			(effects
 				(font
@@ -2952,7 +2952,7 @@
 		(instances
 			(project "MagnavoxOdyssey1"
 				(path "/adb6e295-eae5-402e-a614-02a705c3e27c/00000000-0000-0000-0000-0000588f18cd"
-					(reference "10_C?")
+					(reference "10_C3")
 					(unit 1)
 				)
 			)
@@ -2967,7 +2967,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3c7a0bd-b3da-4ea7-9d42-493e55c946f8")
-		(property "Reference" "10_R?"
+		(property "Reference" "10_R2"
 			(at 138.43 91.821 90)
 			(effects
 				(font
@@ -3019,7 +3019,7 @@
 		(instances
 			(project "MagnavoxOdyssey1"
 				(path "/adb6e295-eae5-402e-a614-02a705c3e27c/00000000-0000-0000-0000-0000588f18cd"
-					(reference "10_R?")
+					(reference "10_R2")
 					(unit 1)
 				)
 			)
